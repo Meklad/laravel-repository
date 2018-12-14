@@ -13,7 +13,8 @@ class LaravelTaggyServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // Load migrations from package migrations to laravel migrations dir.
+        $this->loadMigrationsFrom(__DIR__ . '/../migrations');
     }
 
     /**
