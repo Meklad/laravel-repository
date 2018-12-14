@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Owllog\\LaravelTaggy": "src"
+            "Owllog\\LaravelTaggy\\": "src"
         }
     },
     "require": {
