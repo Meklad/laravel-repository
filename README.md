@@ -38,6 +38,10 @@ Find Lesson and add tags to it:
 $lesson = Lesson::find(38);
 
 $lesson->tag(['velit', 'Rerum', 'dolorem', 'quo']);
+```
 
-dd($lesson->tags);
+To Get A Lesson Tags: [This relation available via taggable trait]
+```php
+$lesson = \App\Lesson::find(1);
+$lesson->tags();
 ```
