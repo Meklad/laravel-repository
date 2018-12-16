@@ -1,4 +1,4 @@
-# Laravel/Taggy
+# Laravel-Taggy
 An Eloquent tagging package for Laravel Framework.
 
 ### Installation
