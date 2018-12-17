@@ -16,6 +16,11 @@ Add laravel-taggy service provider to config/app.php
 Owllog\LaravelTaggy\LaravelTaggyServiceProvider::class,
 ```
 
+Than migrate the new tags tables to database
+```shell
+$ php artisan migrate
+```
+
 ### Usage
 Add Taggable trait to your models:
 ##### Example:
